@@ -1,0 +1,45 @@
+ body, html {
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+        }
+
+        .section {
+            height: 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .section1 {
+            background-image: url('../images/event011.jpg');
+        	background-size: cover;
+        }
+
+        .section2 {
+            background-image: url('../images/event012.jpg'); 
+        	background-color: #7f242b;
+        }
+
+        .section3 {
+            background-image: url('../images/event013.jpg');
+        	background-color: #f4efeb;
+        }
+        
+        .section3 img{
+        	margin-top:120px;
+        }
+
+        .section4 {
+            background-image: url('../images/event017.jpg'); 
+        	background-size: contain;
+        	background-color: #661e22;
+        }
+
+        .section5 {
+            background-image: url('../images/event019.jpg'); 
+        	background-size: contain;
+        }

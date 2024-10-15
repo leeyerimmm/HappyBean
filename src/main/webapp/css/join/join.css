@@ -1,0 +1,179 @@
+section#join_wrap {
+  padding: 40px 0;
+  background-color: #fff;
+}
+section#join_wrap h2 {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+section#join_wrap fieldset {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 50px;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+}
+section#join_wrap fieldset table {
+  width: 100%;
+}
+section#join_wrap fieldset table tr {
+  height: 70px;
+}
+section#join_wrap fieldset table th {
+  text-align: left;
+}
+section#join_wrap fieldset table th label {
+  display: block;
+  position: relative;
+}
+section#join_wrap fieldset table th label:after {
+  content: " *";
+  color: #ff8a49;
+  font-size: 0.8em;
+}
+section#join_wrap fieldset table td {
+  padding: 10px;
+}
+section#join_wrap fieldset table td input[type=password], section#join_wrap fieldset table td input[type=text] {
+  width: 100%;
+  height: 50px;
+  padding: 10px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  box-sizing: border-box;
+}
+section#join_wrap fieldset table td input:focus {
+  border: none;
+  outline: 1px solid #41b25e;
+}
+section#join_wrap fieldset table td input::-moz-placeholder {
+  color: #ccc;
+  font-size: 1em;
+  font-weight: 500;
+}
+section#join_wrap fieldset table td input::placeholder {
+  color: #ccc;
+  font-size: 1em;
+  font-weight: 500;
+}
+section#join_wrap fieldset table td input[type=radio] {
+  margin-left: 10px;
+  margin-right: 5px;
+  opacity: 0;
+}
+section#join_wrap fieldset table td input[type=radio] + label {
+  display: inline-block;
+  position: relative;
+}
+section#join_wrap fieldset table td input[type=radio] + label::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -14px;
+  width: 28px;
+  height: 28px;
+  background-image: url(./../../images/common/icons.png);
+  background-size: 807px 758px;
+  background-position: -174px -571px;
+  transform: scale(0.7);
+}
+section#join_wrap fieldset table td input[type=radio]:checked + label::after {
+  background-position: -210px -571px;
+}
+section#join_wrap fieldset .btn {
+  height: 50px;
+  color: #41b25e;
+  font-weight: 600;
+  outline: none;
+}
+section#join_wrap fieldset .btn.style_1 {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #41b25e;
+}
+section#join_wrap fieldset .btn.style_2 {
+  width: 100%;
+  color: #fff;
+  background-color: #41b25e;
+}
+section#join_wrap h3 {
+  padding-top: 50px;
+}
+section#join_wrap .agree_list {
+  padding: 20px 0;
+}
+section#join_wrap .agree_list li {
+  height: 50px;
+  line-height: 50px;
+}
+section#join_wrap .agree_list li.list_head {
+  height: 60px;
+  line-height: 60px;
+  border: 1px solid;
+  border-color: #ddd transparent #ddd transparent;
+}
+section#join_wrap .agree_list input[name=agree] {
+  margin-left: 10px;
+  margin-right: 5px;
+  opacity: 0;
+}
+section#join_wrap .agree_list input[name=agree] + label {
+  display: inline-block;
+  position: relative;
+  font-size: 0.88em;
+}
+section#join_wrap .agree_list input[name=agree] + label::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -14px;
+  width: 28px;
+  height: 28px;
+  background-image: url(./../../images/common/icons.png);
+  background-size: 807px 758px;
+  background-position: -174px -571px;
+  transform: scale(0.7);
+}
+section#join_wrap .agree_list input[name=agree]:checked + label::after {
+  background-position: -210px -571px;
+}
+section#join_wrap .agree_list label {
+  position: relative;
+  margin-right: 10px;
+}
+section#join_wrap .agree_list label span {
+  display: inline-block;
+  margin-left: 5px;
+  color: #ff8a49;
+  font-size: 0.75em;
+}
+section#join_wrap .agree_list .trm_view {
+  display: inline-block;
+  padding: 3px 5px;
+  color: #888;
+  font-size: 0.75em;
+  line-height: 20px;
+  text-align: center;
+  background-color: #fafafa;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+}
+section#join_wrap p.att {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px 0;
+  color: #888;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-align: right;
+}
+section#join_wrap p.att > span {
+  color: #ff8a49;
+  font-weight: 400;
+}
+
+footer {
+  margin: 0;
+}/*# sourceMappingURL=join.css.map */

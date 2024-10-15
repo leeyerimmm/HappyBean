@@ -1,0 +1,453 @@
+@charset "UTF-8";
+#wrap {
+  padding: 40px 0;
+}
+#wrap > hr.border {
+  display: block;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+section#detail_header_box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+section#detail_header_box > div.thumb_box {
+  position: relative;
+  width: 70%;
+}
+section#detail_header_box > div.thumb_box.off::after {
+  content: "펀딩이 종료 되었습니다.";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 400px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+section#detail_header_box > div.thumb_box img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+section#detail_header_box > div.info_box {
+  position: relative;
+  width: 30%;
+}
+section#detail_header_box > div.info_box.off::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li {
+  padding: 5px 0;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.d_day p {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: 600;
+  background-color: #ed5a5a;
+  border-radius: 30px;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.title h3 {
+  font-size: 2em;
+  line-height: 1.3em;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.goal_info h4 {
+  color: #0091ff;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: right;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.goal_info h4 > span.prog_num {
+  font-size: 32px;
+  font-weight: 600;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.goal_info div.prog_bar {
+  height: 4px;
+  margin: 10px 0;
+  background-color: #eee;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.goal_info div.prog_bar > strong {
+  display: block;
+  height: 4px;
+  background-color: #0091ff;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.goal_info div.amount_wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.goal_info div.amount_wrap p.goal_amount {
+  color: #888;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.goal_info div.amount_wrap p.rased_amount {
+  font-size: 1.1em;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.goal_info div.amount_wrap p.rased_amount strong {
+  font-size: 1.3em;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.company_info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-items: center;
+  padding: 10px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.company_info > p.company_icon {
+  width: 53px;
+  height: 48px;
+  margin-right: 20px;
+  background-image: url(./../../../images/common/icons.png);
+  background-size: 807px 758px;
+  background-position: -604px -675px;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.company_info > div.name_wrap > p {
+  line-height: 1.3em;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.company_info > div.name_wrap > p.company_slo {
+  color: #888;
+  font-size: 0.9em;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form {
+  padding-top: 15px;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form select {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  outline: none;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.option_list_wrap {
+  position: relative;
+  margin-top: 20px;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.option_list_wrap > div#option_container > div.option_selected_info {
+  position: relative;
+  height: 60px;
+  padding: 15px;
+  font-size: 0.85em;
+  border-top: 1px solid #ddd;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.option_list_wrap > div#option_container > div.option_selected_info:last-child {
+  border-bottom: 1px solid #ddd;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.option_list_wrap > div#option_container > div.option_selected_info > button {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  outline: none;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.option_list_wrap > div#option_container > div.option_selected_info > button.delete {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  margin-top: 3px;
+  width: 13px;
+  height: 13px;
+  background-image: url(./../../../images/common/icons.png);
+  background-size: 807px 758px;
+  background-position: -301px -635px;
+  border: none;
+  opacity: 0.5;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.option_list_wrap > div#option_container > div.option_selected_info > button.plus {
+  margin-left: -4px;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.option_list_wrap > div#option_container > div.option_selected_info > button.plus::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -1px;
+  margin-left: -5px;
+  width: 10px;
+  height: 2px;
+  background-color: #ccc;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.option_list_wrap > div#option_container > div.option_selected_info > button.plus::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -1px;
+  width: 2px;
+  height: 10px;
+  background-color: #ccc;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.option_list_wrap > div#option_container > div.option_selected_info > button.minus {
+  margin-top: 10px;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.option_list_wrap > div#option_container > div.option_selected_info > button.minus::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -1px;
+  margin-left: -5px;
+  width: 10px;
+  height: 2px;
+  background-color: #ccc;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.option_list_wrap > div#option_container > div.option_selected_info > input.option_volume {
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  transform: translateY(-10px);
+  margin-left: -3px;
+  text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.11);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+  outline: none;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.option_list_wrap > div#option_container > div.option_selected_info > p.option_title {
+  color: #888;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.option_list_wrap > div#option_container > div.option_selected_info > p.option_price {
+  position: absolute;
+  bottom: 25px;
+  right: 15px;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.option_list_wrap > div#option_container > div.option_selected_info > p strong {
+  font-weight: 400;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.option_list_wrap > div#option_container > div.option_selected_info > p strong.price {
+  font-weight: 800;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.reward_total {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 20px 0 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.reward_total > p.total_count {
+  color: #888;
+  font-size: 0.9em;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.reward_total > p.total_count span {
+  margin-left: 10px;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.reward_total > p.total_amount {
+  font-weight: 800;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.reward_total > p.total_amount span {
+  color: #0091ff;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.reward_total > p.total_amount strong {
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.delivery_info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  color: #888;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.delivery_info > p.title {
+  position: relative;
+  width: 70px;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.delivery_info > p.title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 15px;
+  border-right: 1px solid rgba(0, 0, 0, 0.11);
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.delivery_info > p strong {
+  color: #333;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.button_wrap {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px 0 30px;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.button_wrap > button[type=button] {
+  width: 80%;
+  height: 52px;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 600;
+  background-color: #0091ff;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.button_wrap > label {
+  display: block;
+  position: relative;
+  width: 49px;
+  height: 49px;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  border-radius: 3px;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.button_wrap > label::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  margin-top: -2px;
+  margin-left: 3px;
+  width: 28px;
+  height: 26px;
+  background-image: url(./../../../images/common/icons.png);
+  background-size: 807px 758px;
+  background-position: -602px -518px;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.button_wrap > input[type=checkbox]:checked + div.share_url_box {
+  display: block;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.button_wrap > div.share_url_box {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.11);
+  background-color: #fafafa;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.button_wrap > div.share_url_box > p.page_URL {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  cursor: pointer;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.button_wrap > div.share_url_box > p.page_URL > span {
+  display: inline-block;
+  overflow: hidden;
+  width: calc(100% - 60px);
+  padding: 0 10px;
+  color: #0091ff;
+  font-size: 0.75em;
+  line-height: 38px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+  box-sizing: border-box;
+}
+section#detail_header_box > div.info_box > ul.item_info_list > li.reward_choose > form div.button_wrap > div.share_url_box > p.page_URL > button {
+  width: 60px;
+  height: 40px;
+  color: #888;
+  font-size: 0.8em;
+  background-color: #f4f4f5;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  border-radius: 0 8px 8px 0;
+}
+
+section#detail_content_box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 0;
+}
+section#detail_content_box > div.content_wrap {
+  width: 70%;
+}
+section#detail_content_box > div.content_wrap > h3 {
+  padding: 40px 0 30px;
+  font-size: 1.38em;
+}
+section#detail_content_box > div.content_wrap > h3.reward_info {
+  font-size: 1.75em;
+  margin-bottom: 50px;
+}
+section#detail_content_box > div.content_wrap img {
+  display: block;
+  margin: 40px 0;
+  width: 100%;
+  height: auto;
+}
+section#detail_content_box > div.content_wrap p {
+  font-size: 1.06em;
+  line-height: 1.5em;
+}
+section#detail_content_box > div.content_wrap span.gr {
+  color: #888;
+}
+section#detail_content_box > div.content_wrap > h4 {
+  display: inline-block;
+  position: relative;
+  font-size: 1.38em;
+  margin-bottom: 20px;
+}
+section#detail_content_box > div.content_wrap > h4::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: rgba(88, 191, 255, 0.3);
+}
+section#detail_content_box > article#funidng_list_wrap {
+  width: 30%;
+  padding-left: 20px;
+}
+section#detail_content_box > article#funidng_list_wrap > h2 {
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+section#detail_content_box > article#funidng_list_wrap > ul.item_list.list_style_2 {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+section#detail_content_box > article#funidng_list_wrap > ul.item_list.list_style_2 > li {
+  width: 100%;
+}/*# sourceMappingURL=funding_detail.css.map */

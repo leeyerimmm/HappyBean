@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body > .open_container {
+  text-align: center;
+}
+body > .open_container > p {
+  margin: 0 0 30px;
+}
+body > .open_container > a {
+  padding: 10px 20px;
+  margin: 5px;
+  color: white;
+  font-weight: 600;
+  background-color: #10C838;
+  text-decoration: none;
+}/*# sourceMappingURL=check.css.map */

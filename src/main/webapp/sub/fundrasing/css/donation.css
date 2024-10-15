@@ -1,0 +1,363 @@
+#wrap h2.list_title {
+  padding-bottom: 20px;
+}
+#wrap h2.list_title > a {
+  position: relative;
+  font-size: 1.5em;
+}
+
+.section1 .category-section {
+  display: flex;
+  gap: 12px;
+  margin: 10px 0 30px;
+  white-space: nowrap;
+  padding-bottom: 10px;
+}
+.section1 .category-section .category {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-color: #fff;
+  font-size: 14px;
+  text-align: center;
+  min-width: 80px;
+}
+.section1 .category-section .category .icon {
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.section1 .category-section .category.active {
+  background-color: #00c73c;
+  color: white;
+}
+.section1 .category-section .category:hover {
+  border-color: #7b7b7b;
+}
+.section1 .category-section .category:focus {
+  outline: none;
+  background-color: #00c73c;
+  color: white;
+}
+.section1 .category-section .icon.all {
+  background-image: url("./../../../sub/donation/images/button_01.svg");
+}
+.section1 .category-section .icon.house {
+  background-image: url("./../../../sub/donation/images/button_02.svg");
+}
+.section1 .category-section .icon.society {
+  background-image: url("./../../../sub/donation/images/button_03.svg");
+}
+.section1 .category-section .icon.environment {
+  background-image: url("./../../../sub/donation/images/button_04.svg");
+}
+.section1 .category-section .icon.elder {
+  background-image: url("./../../../sub/donation/images/button_05.svg");
+}
+.section1 .category-section .icon.culture {
+  background-image: url("./../../../sub/donation/images/button_06.svg");
+}
+.section1 .category-section .icon.youth {
+  background-image: url("./../../../sub/donation/images/button_07.svg");
+}
+.section1 .category-section .icon.global {
+  background-image: url("./../../../sub/donation/images/button_09.svg");
+}
+.section1 .category-section .icon.animal {
+  background-image: url("./../../../sub/donation/images/button_10.svg");
+}
+.section1 .category-section .icon.disabled {
+  background-image: url("./../../../sub/donation/images/button_11.svg");
+}
+.section1 .category-section .icon.other {
+  background-image: url("./../../../sub/donation/images/button_08.svg");
+}
+.section1 .item_list.list_style_1 {
+  flex-flow: row wrap;
+  gap: 20;
+}
+.section1 .item_list.list_style_1 li {
+  width: calc(25% - 20px);
+}
+.section1 .item_list.list_style_1 li a {
+  border: none;
+}
+.section1 .item_list.list_style_1 li a p.thumb {
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.section1 .item_list.list_style_1 li a .list_info {
+  padding: 20px 0;
+}
+.section1 .item_list.list_style_1 li a .list_info p.org {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+.section1 .button {
+  display: block;
+  width: 8%;
+  margin: 40px auto 0 auto;
+  text-align: center;
+  padding: 15px 25px;
+  background-color: #fff;
+  border-radius: 40px;
+  border: 1px solid #ccc;
+}
+.section1 .button:hover {
+  border: 1px solid #888;
+}
+
+.article1 {
+  background-color: #4a63e7;
+  border-radius: 15px;
+  margin: 80px auto 130px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+}
+.article1 h3 {
+  width: 50%;
+  font-size: 1.5em;
+  text-align: center;
+}
+.article1 .stats {
+  display: flex;
+  gap: 20px;
+  width: 50%;
+}
+.article1 .stats .count {
+  background-color: #fff;
+  border-radius: 50px 50px;
+  padding: 20px 40px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+}
+.article1 .stats .count span {
+  margin-right: 10px;
+}
+.article1 .stats .amount {
+  background-color: #1ece59;
+  border-radius: 50px 50px;
+  padding: 20px 40px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+}
+.article1 .stats .amount span {
+  margin-right: 10px;
+}
+
+.article2 {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin: 20px auto 50px;
+}
+.article2 .list_title {
+  text-align: center;
+}
+.article2 .article2-subtitle {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.article2 .article2-subtitle strong {
+  color: #10c838;
+}
+.article2 .donation-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.article2 .donation-cards .donation-card {
+  flex: 0 0 35%;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+.article2 .donation-cards .donation-card .card-image {
+  position: relative;
+}
+.article2 .donation-cards .donation-card .card-image a {
+  display: block;
+}
+.article2 .donation-cards .donation-card .card-image a img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+.article2 .donation-cards .donation-card .card-image a .card-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.article2 .donation-cards .donation-card .card-image a .card-text .card-title {
+  padding: 5px 0 5px;
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 1.4;
+}
+.article2 .donation-cards .donation-card .card-image a .card-text span {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 3px 6px;
+  font-size: 0.75em;
+  background-color: #f85151;
+  border-radius: 8px 0 8px 0;
+}
+.article2 .donation-cards .article2_list {
+  flex: 0 0 65%;
+  display: flex;
+  gap: 20px;
+}
+.article2 .donation-cards .article2_list .article2_item_list {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+}
+.article2 .donation-cards .article2_list .article2_item_list a {
+  display: block;
+}
+.article2 .donation-cards .article2_list .article2_item_list a img {
+  width: 100%;
+  height: 170px;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+.article2 .donation-cards .article2_list .article2_item_list a img:hover {
+  border: 1px solid #888;
+}
+.article2 .item_list.list_style_1 li {
+  width: 33.3333333333%;
+}
+.article2 .item_list.list_style_1 li a {
+  border: none;
+}
+.article2 .item_list.list_style_1 li a p.thumb {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.section2 {
+  padding-top: 40px;
+}
+.section2 .item_list.list_style_1 li {
+  width: 33.3333333333%;
+}
+.section2 .item_list.list_style_1 li a {
+  border: none;
+}
+.section2 .item_list.list_style_1 li a p.thumb {
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.section2 .item_list.list_style_1 li a .list_info {
+  padding: 20px 0;
+}
+.section2 .item_list.list_style_1 li a .list_info p.org {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+
+.section3 {
+  padding: 40px 0;
+}
+.section3 .item_list.list_style_1 li {
+  position: relative;
+}
+.section3 .item_list.list_style_1 li a {
+  overflow: hidden;
+  border-radius: 8px;
+}
+.section3 .item_list.list_style_1 li .badge {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  margin: 10px 0;
+  padding: 5px 8px;
+  color: #fff;
+  font-size: 0.75em;
+  background-color: #23cd8a;
+  border-radius: 15px;
+}
+
+.section4 {
+  padding: 40px 0;
+}
+.section4 .list4 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.section4 .list4 .item_list4 {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+.section4 .list4 .item_list4:hover {
+  border: 1px solid #888;
+}
+.section4 .list4 .item_list4 .review-header {
+  background-color: #41b25e;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #fff;
+}
+.section4 .list4 .item_list4 .review-header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.section4 .list4 .item_list4 .review-header h3 {
+  width: 200px;
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.7em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+.section4 .list4 .item_list4 .review-body {
+  padding: 20px;
+}
+.section4 .list4 .item_list4 .review-body p {
+  font-size: 0.9em;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  overflow: hidden;
+}/*# sourceMappingURL=donation.css.map */

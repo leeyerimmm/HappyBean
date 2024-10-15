@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+
+
+/* 헤더 스타일 */
+header {
+  background-color: #ffffff;
+  padding: 0.625em 1.25em;
+  box-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.1);
+}
+
+header .header_wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+header img {
+  height: 3.125em;
+}
+
+/* 네비게이션 스타일 */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.25em;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li:nth-of-type(2) a {
+  color: #10C838;
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+/* 사용자 액션 (로그인, 로그아웃, 검색) 스타일 */
+.user-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.625em;
+}
+
+.search-input {
+  padding: 0.3125em;
+  border-radius: 0.25em;
+  border: 1px solid #ccc;
+}
+
+.login-btn,
+.logout-btn {
+  padding: 0.3125em 0.625em;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+
+.login-btn:hover,
+.logout-btn:hover {
+  background-color: #45a049;
+}

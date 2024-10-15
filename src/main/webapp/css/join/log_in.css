@@ -1,0 +1,132 @@
+body {
+  background-color: #f9fcfc;
+}
+
+section#login_form_wrap {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  width: 90%;
+}
+section#login_form_wrap > h2.logo_frame {
+  width: 200px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+section#login_form_wrap > h2.logo_frame > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+section#login_form_wrap form {
+  width: 100%;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 5px 14px rgba(127, 138, 140, 0.09);
+  box-sizing: border-box;
+}
+section#login_form_wrap form ul {
+  padding-bottom: 20px;
+}
+section#login_form_wrap form ul > li {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+}
+section#login_form_wrap form ul > li:first-child > input {
+  border-radius: 8px 8px 0 0;
+}
+section#login_form_wrap form ul > li:last-child > input {
+  border-top: none;
+  border-radius: 0px 0px 8px 8px;
+}
+section#login_form_wrap form ul > li > input {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+section#login_form_wrap form ul > li > input::-moz-placeholder {
+  color: #ccc;
+}
+section#login_form_wrap form ul > li > input::placeholder {
+  color: #ccc;
+}
+section#login_form_wrap form ul > li > input:focus {
+  border: 2px solid #41b25e;
+}
+section#login_form_wrap form ul > li > input[type=checkbox]:checked + label {
+  background-position: -292px 0;
+}
+section#login_form_wrap form ul > li > button[type=button] {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  background: none;
+  outline: none;
+  border: none;
+  background-image: url(./../../images/common/icons_ver_2.png);
+  background-size: 336px 330px;
+  background-repeat: no-repeat;
+  background-position: -292px -24px;
+}
+section#login_form_wrap form ul > li > label[for=pwd_show] {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  background: none;
+  border: none;
+  outline: none;
+  background-image: url(./../../images/common/icons_ver_2.png);
+  background-size: 336px 330px;
+  background-repeat: no-repeat;
+  background-position: -292px -96px;
+}
+section#login_form_wrap form > button#log_inBtn {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 15px 0;
+  color: #fafafa;
+  font-weight: 600;
+  font-size: 1.05em;
+  background-color: #41b25e;
+  border-radius: 8px;
+}
+section#login_form_wrap > ul.user_find_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+section#login_form_wrap > ul.user_find_list > li {
+  padding: 0 15px;
+  border-left: 1px solid #ddd;
+}
+section#login_form_wrap > ul.user_find_list > li:first-child {
+  border: none;
+}
+section#login_form_wrap > ul.user_find_list > li > a {
+  color: #888;
+  font-size: 0.9em;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}/*# sourceMappingURL=log_in.css.map */

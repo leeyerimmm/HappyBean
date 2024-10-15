@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../css/reset.css" />
+    <link rel="stylesheet" href="./../css/my/user_info.css" />
+    <link rel="icon" href="./../images/common/favicon.ico" type="image/x-icon" />
+    <script defer src="./../js/common/common.js"></script>
+    <title>해피빈 - 내 정보</title>
+  </head>
+  <body>
+    <header id="header_wrap">
+      <div class="w_max">
+        <h1 class="logo">
+          <a href="./../index.html"><img src="./../images/common/logo_kr.svg" alt="해피빈" /></a>
+        </h1>
+        <nav>
+          <ul id="gnb">
+            <li>
+              <a href="./sub/donation/donation.html">
+                <span>기부</span>
+              </a>
+            </li>
+            <li>
+              <a href="./sub/fundrasing/fundrasing.html">
+                <span>진행중인 모금함</span>
+              </a>
+            </li>
+            <li>
+              <a href="./sub/funding/funding.html">
+                <span>펀딩</span>
+              </a>
+            </li>
+            <li>
+              <a href="./sub/campaign/campaign.html">
+                <span>캠페인</span>
+              </a>
+            </li>
+            <li>
+              <a href="./sub/notice/notice.html">
+                <span>공지사항</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="btn_container">
+          <a href="./log_in.html" id="login_btn">
+            <span>로그인</span>
+          </a>
+          <div id="search">
+            <span class="sr-only">검색</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="wrap" class="w_max">
+      <section id="user_info_list_wrap" class="w_max">
+        <div class="user_name_box">
+          <div class="icon"><span class="sr-only">해피빈 마스코트</span></div>
+          <h2><span class="user_name">혜진</span>님</h2>
+          <p>당신의 기부가 <br />어느 누군가에겐 희망입니다.</p>
+        </div>
+        <div class="user_info_box">
+          <ul class="info_list">
+            <li>
+              <a href="#">
+                <p>보유콩</p>
+                <p><strong class="hold_bean">0</strong>원</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>결제금액</p>
+                <p><strong class="payment">0</strong>원</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>콩저금통</p>
+                <p><strong class="cash_box">0</strong>원</p>
+              </a>
+            </li>
+            <li class="total">
+              <a href="#">
+                <p>보유금액</p>
+                <p><strong class="total_sum">0</strong>원</p>
+              </a>
+            </li>
+            <li class="recharge_bean">
+              <a href="#"><span>해피빈 충전</span></a>
+            </li>
+          </ul>
+        </div>
+        <nav class="user_menu_list_box">
+          <ul id="user_menu_list">
+            <li class="current"><a href="#">MY홈</a></li>
+            <li class=""><a href="#">내 소식</a></li>
+            <li class=""><a href="#">활동내역</a></li>
+            <!-- <li class="">
+              <a href="#" class="sub_in">정기결제관리</a>
+              <ul class="sub_menu_list">
+                <li><a href="#">정기기부</a></li>
+                <li><a href="#">정기적금</a></li>
+              </ul>
+            </li>
+            <li class="">
+              <a href="#" class="sub_in">연말정산</a>
+              <ul class="sub_menu_list">
+                <li><a href="#">2023 연말정산</a></li>
+                <li><a href="#" class="new">전자기부금영수증</a></li> -->
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <div style="align-self: flex-start; flex-grow: 2;">
+        <section id="user_activity_view_wrap">
+          <h2 class="sr-only">사용자 활동내역</h2>
+          <div class="user_activity">
+            <div class="current_bean">
+              <ul class="info_list">
+                <li class="list_head">
+                  <h3>나의 보유금액</h3>
+                  <p><strong class="total_sum">0</strong>원</p>
+                </li>
+                <li>
+                  <a href="#">
+                    <p>보유콩</p>
+                    <p><strong class="hold_bean">0</strong>원</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <p>결제금액</p>
+                    <p><strong class="payment">0</strong>원</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <p>콩저금통</p>
+                    <p><strong class="cash_box">0</strong>원</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="total_donation">
+              <ul class="info_list">
+                <li class="list_head">
+                  <h3>총 후원금액</h3>
+                  <p><strong class="donation_total">0</strong>원</p>
+                </li>
+                <li>
+                  <a href="#">
+                    <p>모금함 기부</p>
+                    <p><strong class="donation_act">0</strong>원</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <p>펀딩 참여</p>
+                    <p><strong class="funding_act">0</strong>원</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>       
+        </section>
+        <article class="event_ad_bar">
+          <a href="#" class="ad_link">
+            <h2>나의 정기저금 시작하고 <strong>매달 콩 10% 더 받기</strong></h2>
+            <p class="ico_frame">
+              <span class="sr-only">돼지저금통 아이콘</span>
+            </p>
+            <p class="more_btn">바로가기</p>
+          </a>
+        </article>
+
+        <section class="act_history_wrap">
+          <h2 class="sr-only">적립 및 사용내역</h2>
+          <ul class="hitory_list" data-text="2024.04">
+            <li>
+              <div class="ico_frame use">
+                <p class="ico_bg"></p>
+              </div>
+              <div class="user_history">
+                <p class="comp_date">2024.04.01</p>
+                <h3 class="history_title">콩사용</h3> 
+                <p class="desc">[2023_4] 지역활성화 펀딩 참여</p>
+              </div>
+              <p class="bean_num minus"><span>3,000</span>원</p>
+            </li>
+
+            <li>
+              <div class="ico_frame disp">
+                <p class="ico_bg"></p>
+              </div>
+              <div class="user_history">
+                <p class="comp_date">2024.04.03</p>
+                <h3 class="history_title">콩소멸</h3> 
+                <p class="desc">[2023_4] 이벤트 당첨 콩</p>
+              </div>
+              <p class="bean_num minus"><span>100</span>원</p>
+            </li>
+
+            <li>
+              <div class="ico_frame get">
+                <p class="ico_bg"></p>
+              </div>
+              <div class="user_history">
+                <p class="comp_date">2024.04.03</p>
+                <h3 class="history_title">콩받음</h3> 
+                <p class="desc">[2023_4] 지식인 답변채택콩</p>
+              </div>
+              <p class="bean_num plus"><span>100</span>원</p>
+            </li>
+          </ul>
+
+          <div class="history_more">
+            <a href="#">활동내역 전체보기</a>
+          </div>
+        </section>
+      </div>
+      
+    </div>
+    <footer>
+      <address class="w_max">
+        <h2 class="logo_gray_en">
+          <img src="./../images/common/logo_en.svg" alt="HAPPY BEAN" /> Copyright &copy;
+          HappyBean. All Right Reserved
+        </h2>
+      </address>
+    </footer> 
+    
+    <script>
+      ClassicEditor.create(document.querySelector('#content')).then( editor =>{
+        console.log(editor);
+      }).catch( error => {
+        console.error( error );
+      });
+      
+    </script>
+  </body>
+</html>

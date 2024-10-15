@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* 푸터 스타일 */
+.footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}

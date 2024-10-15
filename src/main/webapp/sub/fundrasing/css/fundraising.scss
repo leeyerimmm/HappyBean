@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+$mainColor: #10C838;
+
+/* 기본 스타일 설정 */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    width: 1140px;
+    margin: 0 auto;
+    >.total_article{
+        height: 80px;
+        line-height: 80px;
+        >span{
+            color: $mainColor;
+        }
+    }//.total_article
+    >article{
+        
+        .item_list.list_style_1 {
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            gap: 20;
+            padding-bottom: 40px;
+            .prog_bar strong{
+                width: 18%;
+            }
+            li {
+                width: calc(25% - 20px);
+                &.total_together{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-flow: column nowrap;
+                    padding: 64.5px 0;
+                    color: white;
+                    line-height: 1.5;
+                    background-color: $mainColor;
+                    border: none;
+                    &:hover{
+                        border: none;
+                    }
+                    >p:nth-of-type(1){
+                        display: block;
+                        width: 80px;
+                        padding: 3px 0;
+                        margin-bottom: 10px;
+                        text-align: center;
+                        background-color: #0DA82F;
+                        >strong{
+                            font-size: 1.4em;
+                        }
+                    }
+                    >p:nth-of-type(2){>strong{font-size: 1.5em;}}
+                    >p:nth-of-type(3){padding: 15px;}
+                    >p:nth-of-type(4),
+                    >p:nth-of-type(5),
+                    >p:nth-of-type(6){>strong{font-size: 1.2em;}}
+    
+                }
+            }
+        }
+
+        >.more{
+            width: 100%;
+            height: 50px;
+            background-color: white;
+            border: 1px solid #ccc;
+            // border-radius: 8px;
+            &:hover{
+                background-color: #ebe4e4;
+            }
+        }//.more
+    }//list_item
+    >.banner{
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+        background-color: RGB(65, 201, 130);
+    }
+}//section

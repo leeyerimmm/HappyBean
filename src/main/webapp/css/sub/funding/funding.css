@@ -1,0 +1,78 @@
+@charset "UTF-8";
+section#funding_list {
+  position: relative;
+  padding-top: 60px;
+}
+section#funding_list nav#funding_kategorie {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+section#funding_list nav#funding_kategorie form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+section#funding_list nav#funding_kategorie label {
+  display: block;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+section#funding_list nav#funding_kategorie input[type=radio]:checked + label {
+  color: #0091ff;
+  border-color: #0091ff;
+}
+section#funding_list nav#funding_kategorie select {
+  position: absolute;
+  bottom: 10px;
+  width: 150px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+section#funding_list nav#funding_kategorie select:focus {
+  border: 1px solid #0091ff;
+  color: #0091ff;
+}
+section#funding_list nav#funding_kategorie select#statusSelect {
+  right: 160px;
+}
+section#funding_list nav#funding_kategorie select#currentSelect {
+  right: 0;
+}
+section#funding_list ul.item_list.list_style_2 > li.off > a {
+  position: relative;
+}
+section#funding_list ul.item_list.list_style_2 > li.off > a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.11);
+}
+section#funding_list ul.item_list.list_style_2 > li.off > a::after {
+  content: "펀딩성공";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 56px;
+  height: 56px;
+  padding: 7px 9px 0;
+  font-size: 0.88em;
+  line-height: 1.43;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  background-color: rgba(16, 200, 56, 0.9);
+  border: 1px solid #41b25e;
+  box-sizing: border-box;
+}/*# sourceMappingURL=funding.css.map */

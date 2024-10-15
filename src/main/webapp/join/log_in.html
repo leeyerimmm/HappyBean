@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../css/reset.css" />
+    <link rel="stylesheet" href="./../css/join/log_in.css" />
+    <link
+      rel="icon"
+      href="./../images/common/favicon.ico"
+      type="image/x-icon"
+    />
+    <script defer src="./../js/common/common.js"></script>
+    <title>해피빈 : 로그인</title>
+  </head>
+  <body>
+    <header id="header_wrap">
+      <div class="w_max">
+        <h1 class="logo">
+          <a href="./../index.html"><img src="./../images/common/logo_kr.svg" alt="해피빈" /></a>
+        </h1>
+        <nav>
+          <ul id="gnb">
+            <li>
+              <a href="./../sub/donation/donation.html">
+                <span>기부</span>
+              </a>
+            </li>
+            <li>
+              <a href="./../sub/fundrasing/sub/fundrasing_sub.html">
+                <span>진행중인 모금함</span>
+              </a>
+            </li>
+            <li>
+              <a href="./../sub/funding/funding.html">
+                <span>펀딩</span>
+              </a>
+            </li>
+            <li>
+              <a href="./../sub/campaign/campaign.html">
+                <span>캠페인</span>
+              </a>
+            </li>
+            <li>
+              <a href="./../sub/notice/notice.html">
+                <span>공지사항</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="btn_container">
+          <a href="./log_in.html" id="login_btn">
+            <span>로그인</span>
+          </a>
+          <div id="search">
+            <span class="sr-only">검색</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="wrap">
+      <section id="login_form_wrap">
+        <h2 class="logo_frame">
+          <img src="./../images/common/logo_en.svg" alt="HAPPY BEAN" />
+        </h2>
+
+        <form action="#" method="post" autocomplete="off">
+          <ul>
+            <li>
+              <input
+                type="text"
+                maxlength="16"
+                name="id"
+                id="id"
+                placeholder="아이디를 입력하세요."
+              />
+              <button type="button">
+                <span class="sr-only">다시쓰기</span>
+              </button>
+            </li>
+            <li>
+              <input
+                type="password"
+                maxlength="20"
+                name="pwd"
+                id="pwd"
+                placeholder="비밀번호를 입력하세요"
+              />
+              <button type="button">
+                <span class="sr-only">다시쓰기</span>
+              </button>
+              <input type="checkbox" name="pwd_show" id="pwd_show" />
+              <label for="pwd_show"
+                ><span class="sr-only">비밀번호 보기</span></label
+              >
+            </li>
+          </ul>
+          <button type="submit" id="submit">로그인</button>
+        </form>
+
+        <ul class="user_find_list">
+          <li><a href="#">비밀번호 찾기</a></li>
+          <li><a href="#">아이디 찾기</a></li>
+          <li><a href="./join.jsp">회원가입</a></li>
+        </ul>
+
+        <script>
+          const $pwdShow = document.querySelector("#pwd_show");
+          const $pwdInput = document.querySelector("#pwd");
+          const $pwdLabel = document.querySelector('label[for="pwd_show"]');
+
+
+          $pwdLabel.addEventListener('click',()=>{
+
+            if($pwdShow.checked){
+              $pwdInput.setAttribute('type', 'password');
+            } else {
+              $pwdInput.setAttribute('type', 'text');
+            }
+
+            
+          });
+
+
+          
+        </script>
+      </section>
+    </div>
+    <footer>
+      <address class="w_max">
+        <h2 class="logo_gray_en">
+          <img src="./../images/common/logo_en.svg" alt="HAPPY BEAN" />
+          Copyright &copy; HappyBean. All Right Reserved
+        </h2>
+      </address>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./../images/common/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="./../css/reset.css">
+  <link rel="stylesheet" href="./../css/join/join.css">
+  <title>해피빈 : 회원가입</title>
+  <script defer src="./../js/common/common.js"></script>
+</head>
+<body>
+  <header id="header_wrap">
+    <div class="w_max">
+      <h1 class="logo">
+        <a href="./../index.html"><img src="./../images/common/logo_kr.svg" alt="해피빈" /></a>
+      </h1>
+      <nav>
+        <ul id="gnb">
+          <li>
+            <a href="./sub/donation/donation.html">
+              <span>기부</span>
+            </a>
+          </li>
+          <li>
+            <a href="./sub/fundrasing/fundrasing.html">
+              <span>진행중인 모금함</span>
+            </a>
+          </li>
+          <li>
+            <a href="./sub/funding/funding.html">
+              <span>펀딩</span>
+            </a>
+          </li>
+          <li>
+            <a href="./sub/campaign/campaign.html">
+              <span>캠페인</span>
+            </a>
+          </li>
+          <li>
+            <a href="./sub/notice/notice.html">
+              <span>공지사항</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="btn_container">
+        <a href="./log_in.html" id="login_btn">
+          <span>로그인</span>
+        </a>
+        <div id="search">
+          <span class="sr-only">검색</span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="join_wrap">
+    <h2>회원가입</h2>
+    <p class="att"><span>*</span> 필수 입력 사항</p>
+    <form action="#" method="post" name="joinFrm" autocomplete="off">
+      <fieldset>
+        <legend class="sr-only">회원가입 입력 폼</legend>        
+        <table>
+          <colgroup>
+            <col style="width: 20%;">
+            <col style="width: 60%;">
+            <col style="width: 20%;">
+          </colgroup>
+
+          <tr>
+            <th scope="row"><label for="id">아이디</label></th>
+            <td>
+              <input type="text" name="id" id="id" maxlength="16" placeholder="아이디를 입력해주세요.">
+            </td>
+            <td><button type="button" class="btn style_1">중복확인</button></td>
+          </tr>
+          <tr>
+            <th scope="row"><label for="pwd">비밀번호</label></th>
+            <td colspan="2">
+              <input type="password" name="pwd" id="pwd"  placeholder="비밀번호를 입력해주세요.">
+            </td>
+
+          </tr>
+          <tr>
+            <th scope="row"><label for="repwd">비밀번호 확인</label></th>
+            <td colspan="2">
+              <input type="password" name="repwd" id="repwd"  placeholder="비밀번호를 한번 더 입력해주세요.">
+            </td>
+
+          </tr>
+          <tr>
+            <th scope="row"><label for="name">이름</label></th>
+            <td colspan="2">
+              <input type="text" name="id" id="name" placeholder="이름을 입력해주세요.">
+            </td>
+
+          </tr>
+          
+          <tr>
+            <th scope="row"><label for="email">이메일</label></th>
+            <td>
+              <input type="text" name="email" id="email" placeholder="아이디를 입력해주세요.">
+            </td>
+            <td><button type="button" class="btn style_1">중복확인</button></td>
+          </tr>
+          
+          <tr>
+            <th scope="row"><label for="phone">연락처</label></th>
+            <td>
+              <input type="text" name="phone" id="phone" placeholder="휴대폰 번호를 '-'제외 입력해 주세요">
+            </td>
+            <td><button type="button" class="btn style_1">본인인증</button></td>
+          </tr>
+
+          <tr>
+            <th scope="row" rowspan="2"><label for="add_search">주소</label></th>
+            <td><input type="text" name="add1" id="add1" placeholder="주소 검색을 이용해 주세요." maxlength="0"></td>
+            <td>
+              <input type="button" name="add_search" id="add_search" value="주소검색" class="btn style_2" style="cursor: pointer;">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="text" name="add2" id="add2" placeholder="상세 주소를 입력해 주세요."></td>
+          </tr>
+          
+          <tr>
+            <th scope="row">성별</th>
+            <td colspan="2">
+              <input type="radio" name="gender" id="male" value="1" checked>
+              <label for="male">남자</label>
+              <input type="radio" name="gender" id="female" value="2">
+              <label for="female">여자</label>
+            </td>
+          </tr>
+
+          <tr>
+            <th scope="row"><label for="phone">연락처</label></th>
+            <td>
+              <input type="text" name="phone" id="phone" placeholder="휴대폰 번호를 '-'제외 입력해 주세요">
+            </td>
+            <td><button type="button" class="btn style_1">본인인증</button></td>
+          </tr>          
+        </table>
+        <h3>이용약관동의</h3>
+        <ul class="agree_list">
+          <li class="list_head">
+            <input type="checkbox" name="agree" id="all_agree" onclick="selectAll(this)">
+            <label for="all_agree">전체 동의</label>
+          </li>
+          <li>
+            <input type="checkbox" name="agree" id="agree1">
+            <label for="agree1">이용약관 동의<span>(필수)</span></label>
+            <a href="#" class="trm_view">약관 보기</a>
+          </li>
+          <li>
+            <input type="checkbox" name="agree" id="agree2">
+            <label for="agree2">개인정보 수집 및 이용 동의<span>(필수)</span></label>
+            <a href="#" class="trm_view">약관 보기</a>
+          </li>
+          <li>
+            <input type="checkbox" name="agree" id="agree3">
+            <label for="agree3">광고정보 수신 동의<span>(필수)</span></label>
+            <input type="checkbox" name="agree" id="ad_email">
+            <label for="ad_email">이메일 수신 동의</label>
+            <input type="checkbox" name="agree" id="ad_phone">
+            <label for="ad_phone">SMS 수신 동의</label>
+          </li>
+        </ul>
+        <input type="button" name="add_search" id="add_search" value="가입하기" class="btn style_2" style="cursor: pointer;">
+      </fieldset>
+    </form>
+  </section>
+  <footer>
+    <address class="w_max">
+      <h2 class="logo_gray_en">
+        <img src="./../images/common/logo_en.svg" alt="HAPPY BEAN" /> Copyright &copy;
+        HappyBean. All Right Reserved
+      </h2>
+    </address>
+  </footer>  
+
+
+ 
+</body>
+</html>
