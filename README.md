@@ -17,7 +17,18 @@
 <br><br>  
 
 
-## 2. Key Features (주요 기능)  
+## 2. Team Members (팀원 및 팀 소개) 
+
+
+| 이름           | 역할                         | GitHub      |
+| ------------- | ---------------------------- | ----------- |
+| ![프로필 이미지](gitpro.jkpg) | 프로젝트 리더 및 전체 개발   | [GitHub 링크](https://github.com/leeyerimmm) | 
+
+
+<br><br>  
+
+
+## 3. Key Features (주요 기능)  
 
 
 - **회원가입**  
