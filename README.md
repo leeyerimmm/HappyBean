@@ -17,7 +17,7 @@
 <br><br>  
 
 
-## 2. Team Members (팀원 및 팀 소개) 
+## 2. Tasks & Responsibilities (작업 및 역할 분담)
 
 
 | 이름           | 역할                         | GitHub      |
