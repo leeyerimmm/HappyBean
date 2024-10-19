@@ -22,7 +22,7 @@
 
 | 이름           | 역할                         | GitHub      |
 | ------------- | ---------------------------- | ----------- |
-| ![프로필 이미지](gitpro.jkpg) | 프로젝트 리더 및 전체 개발   | [GitHub 링크](https://github.com/leeyerimmm) | 
+|이예림 | **팀장** **기부**   | [GitHub 링크](https://github.com/leeyerimmm) | 
 
 
 <br><br>  
