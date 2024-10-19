@@ -84,7 +84,7 @@
 <br><br>  
 
 
-## 4. Tech Stack
+## 4. Tech Stack (기술 스택)
 
 ### Frontend
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -101,3 +101,14 @@
 ![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Apache Tomcat](https://img.shields.io/badge/Tomcat-F8DC75?style=for-the-badge&logo=apache-tomcat&logoColor=black)
+
+
+
+<br><br>  
+
+
+## 5. Project Structure (프로젝트 구조)
+
+
+Happypotato/ ├── build/ # 빌드 파일들이 저장되는 디렉토리 ├── src/ │ ├── main/ │ │ ├── java/ │ │ │ ├── board/ # 게시판 관련 Java 클래스 │ │ │ ├── Controls/ # 프로젝트 내 다양한 컨트롤러 클래스 │ │ │ ├── donation/ # 기부 관련 Java 클래스 │ │ │ └── join/ # 회원가입 관련 Java 클래스 │ │ ├── webapp/ │ │ ├── admin/ # 관리자 페이지 관련 파일 │ │ ├── ckeditor/ # WYSIWYG 에디터 리소스 파일 │ │ ├── css/ # 스타일시트 파일 (CSS) │ │ ├── font/ # 폰트 파일 │ │ ├── images/ # 이미지 파일들 │ │ ├── join/ # 회원가입 관련 JSP 파일 │ │ ├── js/ # JavaScript 파일들 │ │ ├── my/ # 사용자 개인 페이지 관련 파일 │ │ ├── payment/ # 결제 관련 JSP 파일 │ │ ├── sql/ # SQL 쿼리 파일 │ │ ├── sub/ # 서브 페이지 관련 JSP 파일 │ │ │ ├── campaign/ # 캠페인 관련 JSP 파일 │ │ │ ├── donation/ # 기부 페이지 관련 JSP 파일 │ │ │ ├── funding/ # 펀딩 페이지 관련 JSP 파일 │ │ │ ├── fundrasing/ # 모금 관련 JSP 파일 │ │ │ └── notice/ # 공지사항 페이지 관련 JSP 파일 │ │ ├── views/ # 기본 뷰 파일들 │ │ ├── WEB-INF/ # 웹 애플리케이션의 설정 및 보안 파일들 │ │ └── index.jsp # 메인 페이지 파일
+
