@@ -109,7 +109,7 @@
 
 ## 5. Project Structure (프로젝트 구조)
 
-\```
+```plaintext
 Happypotato/
 ├── build/                      # 빌드 파일들이 저장되는 디렉토리
 ├── src/
@@ -139,5 +139,4 @@ Happypotato/
 │   │       ├── views/          # 기본 뷰 파일들
 │   │       ├── WEB-INF/        # 웹 애플리케이션의 설정 및 보안 파일들
 │   │       └── index.jsp       # 메인 페이지 파일
-\```
 
