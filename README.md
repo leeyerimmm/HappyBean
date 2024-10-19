@@ -22,7 +22,8 @@
 
 | 이름           | 역할                         | GitHub      |
 | ------------- | ---------------------------- | ----------- |
-|이예림 | **팀장** **기부**   | [GitHub 링크](https://github.com/leeyerimmm) | 
+|이예림 | **팀장**
+        **기부**   | [GitHub 링크](https://github.com/leeyerimmm) | 
 
 
 <br><br>  
