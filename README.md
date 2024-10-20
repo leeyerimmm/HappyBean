@@ -163,7 +163,10 @@ Happypotato/
 
 ## 7. Site introduction (사이트 소개)
 <br>
-## Pages Overview
+
+
+### 7-1. Default page (기본 페이지)
+
 
 ### 1. Main Page (메인 페이지)
 이 페이지는 전체 사이트의 대표 페이지로, 사용자에게 기부, 모금함, 펀딩, 캠페인, 공지사항 등의 정보를 한 눈에 제공합니다. 추천 기부 프로젝트 및 펀딩 항목들을 시각적으로 표시하여 쉽게 접근할 수 있게 합니다.
@@ -195,10 +198,7 @@ Happypotato/
 
 ![Notice Page](./images/notice.png)
 
-### 7. Admin Dashboard (관리자 대시보드)
-관리자가 모든 기부 아이템, 펀딩 아이템, 캠페인 등을 관리하고, 새로운 프로젝트를 생성하거나 수정, 삭제할 수 있는 페이지입니다.
 
-![Admin Dashboard](./images/manager.png)
 
 
 
