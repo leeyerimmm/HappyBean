@@ -198,6 +198,23 @@ Happypotato/
 
 ![Notice Page](./images/notice.png)
 
+<br>
+
+
+### 7-2. Sign up &  Log in (회원가입 및 로그인)
+
+
+### 1. Sign up (회원가입 페이지)
+이 페이지는 사용자가 이미 등록된 계정으로 사이트에 로그인할 수 있는 페이지입니다. 
+
+![Main Page](./images/join.png)
+
+
+### 2. Log in (로그인 페이지)
+이 페이지는 새로운 사용자가 계정을 생성하여 사이트의 다양한 서비스에 접근할 수 있도록 돕는 페이지입니다.
+
+![Main Page](./images/login.png)
+
 
 
 
