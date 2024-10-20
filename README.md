@@ -173,7 +173,6 @@ Happypotato/
 | **Fundraising Page**  | 모금함과 관련된 프로젝트 목록을 확인할 수 있으며, 사용자는 해당 프로젝트에 기부하고 참여할 수 있습니다.                           | ![Fundraising Page](./images/fundrasing.png)|
 | **Funding Page**      | 펀딩과 관련된 프로젝트를 확인하고 참여할 수 있는 페이지입니다. 각 프로젝트의 목표 금액과 현재 진행 상황 등을 시각적으로 확인할 수 있습니다. | ![Funding Page](./images/funding.png)  |
 | **Campaign Page**     | 사회 공헌과 관련된 다양한 캠페인을 소개하는 페이지입니다. CSR 및 사회 공헌과 관련된 정보를 전달합니다.                              | ![Campaign Page](./images/campaign.png)|
-| **No지 - 종료**      | 특정 기부 아이템 카드에는 "종료" 오버레이가 표시되며, 진행률 바가 "100%"로 나타납니다. 이를 통해 사용자는 완료된 캠페인을 쉽게 식별할 수 있습니다. | ![기부 아이템](./images/donation_sub_end.png) |
 
 <br>
 
