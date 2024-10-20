@@ -137,11 +137,11 @@ Happypotato/
 └── README.md                   # 프로젝트 설명 파일
 
 
-<br><br>  
 
 
+<br><br>
 
-## 5. Tech Stack (기술 스택)
+## 6. Tech Stack (기술 스택)
 
 ### Frontend
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -161,7 +161,9 @@ Happypotato/
 
 
 
-<br><br>  
+
+
+
 
 
 
