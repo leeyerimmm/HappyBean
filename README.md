@@ -73,21 +73,19 @@
 
 ### 2. 기부 및 펀딩 프로젝트 탐색 및 참여:
 
-- **프로젝트 탐색**:
-  - 진행 중인 기부 프로젝트 목록을 확인하고, 각 프로젝트의 상세 정보를 볼 수 있습니다.
+- **아이템 탐색**:
+  - 진행 중인 기부 및 펀딩 프로젝트 목록을 확인하고, 각 프로젝트의 상세 정보를 볼 수 있습니다.
 
-- **프로젝트 참여 및 결제**:
-  - 사용자는 원하는 프로젝트에 기부를 진행할 수 있으며, 결제를 통해 참여할 수 있습니다.
+- **기부 및 펀딩 진행**:
+  - 사용자는 원하는 기부 또는 펀딩 프로젝트에 기부를 진행할 수 있으며, 결제를 통해 참여할 수 있습니다.
 
 
 ### 3. 관리자 기능:
 
-- **프로젝트 및 캠페인 관리**:
-  - 관리자는 새로운 기부 프로젝트와 캠페인을 생성하고, 수정 또는 삭제할 수 있습니다.
-
-- **공지사항 관리**:
-  - 관리자 권한으로 사이트의 공지사항을 작성하고 수정할 수 있습니다.
-
+- **아이템 관리**:
+  - 관리자는 진행중이거나 종료된 각 프로젝트 목록을 볼 수 있습니다.
+  - 관리자는 새로운 기부, 펀딩, 캠페인, 공지사항을 생성하고, 수정하거나 삭제할 수 있습니다.
+ 
 
 ### 4. 시각적 정보 제공:
 
@@ -136,8 +134,29 @@ Happypotato/
 │   │       └── index.jsp       # 메인 페이지 파일
 └── README.md                   # 프로젝트 설명 파일
 
+```
 
 
+
+<br><br>
+
+## 6. Tech Stack (기술 스택)
+
+### Frontend
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### Backend
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![JSP](https://img.shields.io/badge/JSP-007396?style=for-the-badge&logo=java&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+### Tools
+![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Apache Tomcat](https://img.shields.io/badge/Tomcat-F8DC75?style=for-the-badge&logo=apache-tomcat&logoColor=black)
 
 
 
