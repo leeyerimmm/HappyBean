@@ -159,7 +159,46 @@ Happypotato/
 ![Visual Studio Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Apache Tomcat](https://img.shields.io/badge/Tomcat-F8DC75?style=for-the-badge&logo=apache-tomcat&logoColor=black)
 
+<br><br>
 
+## 7. Site introduction (사이트 소개)
+<br>
+## Pages Overview
+
+### 1. Main Page (메인 페이지)
+이 페이지는 전체 사이트의 대표 페이지로, 사용자에게 기부, 모금함, 펀딩, 캠페인, 공지사항 등의 정보를 한 눈에 제공합니다. 추천 기부 프로젝트 및 펀딩 항목들을 시각적으로 표시하여 쉽게 접근할 수 있게 합니다.
+
+![Main Page](./images/index.png)
+
+### 2. Donation Page (기부 페이지)
+기부와 관련된 모든 프로젝트를 탐색하고 기부할 수 있는 페이지입니다. 현재 진행 중인 기부의 상태와 목표 금액, 모금 금액 등의 정보를 제공하며, 종료된 프로젝트에 대한 기록도 확인할 수 있습니다.
+
+![Donation Page](./images/donation.png)
+
+### 3. Fundraising Page (모금함 페이지)
+이 페이지에서는 모금함과 관련된 프로젝트 목록을 확인할 수 있으며, 사용자는 해당 프로젝트에 기부하고 참여할 수 있습니다.
+
+![Fundraising Page](./images/fundrasing.png)
+
+### 4. Funding Page (펀딩 페이지)
+펀딩과 관련된 프로젝트를 확인하고 참여할 수 있는 페이지입니다. 각 프로젝트의 목표 금액과 현재 진행 상황 등을 시각적으로 확인할 수 있습니다.
+
+![Funding Page](./images/funding.png)
+
+### 5. Campaign Page (캠페인 페이지)
+사회 공헌과 관련된 다양한 캠페인을 소개하는 페이지입니다. CSR 및 사회 공헌과 관련된 정보를 전달합니다.
+
+![Campaign Page](./images/campaign.png)
+
+### 6. Notice Page (공지사항 페이지)
+사용자와 관리자에게 중요한 공지사항을 확인할 수 있는 페이지입니다. 새로운 공지사항을 확인하고 필요한 정보를 빠르게 얻을 수 있습니다.
+
+![Notice Page](./images/notice.png)
+
+### 7. Admin Dashboard (관리자 대시보드)
+관리자가 모든 기부 아이템, 펀딩 아이템, 캠페인 등을 관리하고, 새로운 프로젝트를 생성하거나 수정, 삭제할 수 있는 페이지입니다.
+
+![Admin Dashboard](./images/manager.png)
 
 
 
