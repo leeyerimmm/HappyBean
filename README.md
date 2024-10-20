@@ -203,7 +203,17 @@ Happypotato/
 <br>
 
 
-### 7-3. Administrator page (관리자 페이지)
+### 7-4. User Information Page (내 정보 페이지)
+
+| 페이지 이름 | 설명 | 스크린샷 |
+|-------------|------|-----------|
+| **내 정보 페이지** | 사용자가 자신의 보유 금액, 후원 금액, 활동 내역 등을 확인하고 관리할 수 있는 페이지입니다. | ![User Info Page](./images/user_info.png) |
+
+
+<br>
+
+
+### 7-5. Administrator page (관리자 페이지)
 
 
 | 관리자 페이지 | 설명 | 스크린샷 |
